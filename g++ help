@@ -1,0 +1,12 @@
+g++ -Wall -std=c++14 test.cpp
+
+-Wall : Shows warning if any error
+-std=c++14 : Uses c++ 14 as standard
+
+g++ -Wall -std=c++14 test.cpp -o test
+
+-o anyname : output as 'anyname'
+
+g++ -S anyname name.c : Creates a file with assembly code equivalent to name.c
+
+objdump -S --disassemble hello > test.dump : Disassamble an Object file
