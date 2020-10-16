@@ -2,7 +2,7 @@
 #include <math.h>
 #define PI 3.14159265
 
-//Used Namespaces
+//Used Objects from namespace std
 using std::cin;
 using std::cout;
 using std::endl;
