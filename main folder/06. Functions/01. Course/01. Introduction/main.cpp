@@ -10,10 +10,15 @@ int sum(int, int);
 
 int main()
 {
-    int num1{0}, num2{0};
+    int num1{0}, num2{0}, result{};
     cout << "Enter two numbers to add : ";
     cin >> num1 >> num2;
-    cout << "Sum = " << sum(num1, num2) << endl;
+
+    // Function call
+    result = sum(num1, num2);
+
+    cout << "Sum = " << result << endl;
+
     return 0;
 }
 
