@@ -9,8 +9,8 @@ using std::string;
 
 int main(void)
 {
-    string alphabet{"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "};
-    string key{"poiuytrewqasdfghjklmnbvcxzPOIUYTREWQASDFGHJKLMNBVCXZ*"};
+    string alphabet{"0123456789'.abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "};
+    string key{"7412589630@=poiuytrewqasdfghjklmnbvcxzPOIUYTREWQASDFGHJKLMNBVCXZ*"};
 
     cout << "Enter your message : ";
     string message{};
@@ -24,7 +24,9 @@ int main(void)
         encoded += key[pos];
     }
 
+    cout << "\nHere is your encrypted message :" << endl;
     cout << encoded << endl;
+    cout << "\n";
 
     string decoded{};
     for (char c2 : encoded)
@@ -34,7 +36,9 @@ int main(void)
         decoded += alphabet[pos];
     }
 
+    cout << "Here is your decrypted message :" << endl;
     cout << decoded << endl;
+    cout << "\n";
 
     return 0;
 }
