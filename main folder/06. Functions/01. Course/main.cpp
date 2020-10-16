@@ -24,7 +24,7 @@ int main()
     //generating 10 random numbers
     for (size_t i{1}; i <= count; i++)
     {
-        randNum = rand() % max + min; //genrating random number between [min,max]
+        randNum = rand() % (max - min + 1) + min; //genrating random number between [min,max]
         cout << randNum << endl;
     }
 
