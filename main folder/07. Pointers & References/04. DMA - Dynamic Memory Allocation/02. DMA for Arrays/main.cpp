@@ -17,7 +17,7 @@ int main()
 
     cout << arrayPtr << endl; // Memory address in heap of first element of array of input size
 
-    delete[] arrayPtr;
+    delete[] arrayPtr; // empty big brackets is must
 
     return 0;
 }
