@@ -36,7 +36,7 @@ public:
 
 int main()
 {
-    Student mark;
+    Student mark; // mark is an object of student class
 
     mark.hasPassed(78);
     mark.checkRank(123);
