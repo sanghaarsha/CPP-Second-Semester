@@ -1,0 +1,20 @@
+class Account
+{
+private:
+    std::string name;
+    double balance;
+
+public:
+    // Constructors
+    
+    Account();
+    //Overloading Constructors
+    Account(std::string name, double balance);
+    Account(std::string name);
+    Account(double balance);
+
+    //Destructor
+
+    ~Account();
+    //no overloading,no-return type, no parameters is the rule
+};

@@ -1,0 +1,38 @@
+class Player
+{
+private:
+    std::string name;
+    int health, xp;
+
+public:
+    //Constructors
+
+    //same name as the class
+    Player(); // no-args constructor
+    Player(std::string name);
+    Player(std::string name, int health, int xp);
+
+    //Destructor
+    
+    //no overloading,no-return type, no parameters is the rule
+
+    ~Player(); 
+};
+
+{
+    Player slayer; // no-args constructor called
+    Player hero{"Hero"}; //second constructor called
+    Player frank{"Frank",100,4}; //third constructor called
+    
+    // use the object
+    ....;
+    ....;
+    ....;
+
+    //3 Destructors called, memory released
+}
+
+// Another case
+
+Player *enemy = new Player("Enemy", 1000,0); //third constructor called
+delete enemy; // Destructor called
