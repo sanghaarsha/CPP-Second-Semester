@@ -1,0 +1,18 @@
+class Account
+{
+private:
+    std::string name;
+    double balance;
+
+public:
+    // user-defined no-args constructor
+    Account()
+    {
+        name = "None";
+        balance = 0.0;
+    }
+
+    // Member Methods
+    bool withdraw(double amount);
+    bool deposit(double amount);
+};
