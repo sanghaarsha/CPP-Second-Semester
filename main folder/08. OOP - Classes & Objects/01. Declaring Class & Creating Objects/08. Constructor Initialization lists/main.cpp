@@ -42,21 +42,13 @@ public:
 
     // * The New Way: (Here we are 'initializing' and not 'assigning') :
 
-    Player() : name{"none"},
-               health{0},
-               xp{0} {}
+    Player() : name{"none"}, health{0}, xp{0} {}
 
-    Player(std::string txt) : name{txt},
-                              health{0},
-                              xp{0} {}
+    Player(std::string txt) : name{txt}, health{0}, xp{0} {}
 
-    Player(std::string txt, int h) : name{txt},
-                                     health{h},
-                                     xp{0} {}
+    Player(std::string txt, int h) : name{txt}, health{h}, xp{0} {}
 
-    Player(std::string txt, int h, int x) : name{txt},
-                                            health{h},
-                                            xp{x} {}
+    Player(std::string txt, int h, int x) : name{txt}, health{h}, xp{x} {}
 
     // Methods
 
