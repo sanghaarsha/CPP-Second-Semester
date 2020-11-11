@@ -2,7 +2,6 @@
 #include <string>
 
 //Used Classes from namespace 'std'
-using std::cin;
 using std::cout;
 using std::endl;
 
