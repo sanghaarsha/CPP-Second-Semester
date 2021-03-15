@@ -39,7 +39,7 @@ int main()
 
     mark.hasPassed(78);
     mark.checkRank(123);
-    mark.parents("John", "Mailey");
+    mark.parents("John", "Miley");
 
     return 0;
 }
