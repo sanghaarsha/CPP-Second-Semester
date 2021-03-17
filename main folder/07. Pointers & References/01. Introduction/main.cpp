@@ -16,7 +16,8 @@ int main()
     int *numPtr{&num};
     cout << num << endl;
 
-    // &num == numPtr, its because pointer is a variable of data type memory address, here its initalized to num, which means it holds memory location of the value stored in num
+    // &num == numPtr, its because pointer is a variable of data type memory address
+    //here its initalized to num, which means it holds memory location of the value stored in num
 
     cout << numPtr << endl;
     cout << &num << endl;
