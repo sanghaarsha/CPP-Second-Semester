@@ -12,7 +12,7 @@ using std::vector;
 int main()
 {
     int num{10};
-    cout << "num: " << num << endl;
+    cout << "\nnum: " << num << endl;
     cout << "size of num: " << sizeof(num) << endl;
     cout << "address of num: " << &num << endl;
 
@@ -34,7 +34,7 @@ int main()
     vector<string> *p4{nullptr};
     int *p5{nullptr};
 
-    // Every size will be '8', because for my ma 8chine is default memory address size
+    // Every size will be '8', for my machine this is default memory address size
     cout << "size of p1: " << sizeof(p1) << endl;
     cout << "size of p2: " << sizeof(p2) << endl;
     cout << "size of p3: " << sizeof(p3) << endl;
@@ -44,14 +44,13 @@ int main()
     cout << "\n";
 
     int score{10};
-    double highTemp{100.7};
 
     int *scorePtr{};
 
     scorePtr = &score;
     cout << "score: " << score << endl;
     cout << "Address of score: " << &score << endl;
-    cout << "Value of scorePtr: " << scorePtr << endl;
+    cout << "Value of scorePtr: " << scorePtr << "\n" <<endl;
 
     
     return 0;

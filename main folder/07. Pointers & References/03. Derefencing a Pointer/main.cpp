@@ -12,7 +12,7 @@ int main()
     int score{100};
     int *scorePtr{&score};
 
-    cout << "score: " << score << endl;
+    cout << "\nscore: " << score << endl;
     cout << "&score: " << &score << endl;
 
     cout << "\n";
@@ -61,7 +61,7 @@ int main()
     cout << "Stooges: ";
     for (auto el : *vctPtr)
         cout << el << " ";
-    cout << endl;
+    cout << "\n" <<endl;
 
     return 0;
 }
